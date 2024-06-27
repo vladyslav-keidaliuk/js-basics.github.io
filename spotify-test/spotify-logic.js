@@ -7,8 +7,8 @@ document.getElementById('search-button').addEventListener('click', function() {
 });
 
 function getToken() {
-    const clientId = 'ed1cab347c204786933642f4be6f2aed2';
-    const clientSecret = '2f22f0abe1db4cd59667b9d2ae70ddcf';
+    const clientId = 'a51ab37efab04ca7ad90553928947072';
+    const clientSecret = '7d066baad6f846aab178ed31955a944e';
     
     return fetch('https://accounts.spotify.com/api/token', {
         method: 'POST',
