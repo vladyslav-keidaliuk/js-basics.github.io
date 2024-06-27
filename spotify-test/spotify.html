@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+        .result img {
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Spotify Song Search</h1>
+    <input type="text" id="song-input" placeholder="Enter song name">
+    <button id="search-button">Search</button>
+    <div id="result" class="result"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spotify-web-api-js/1.5.2/spotify-web-api.min.js"></script>
+    <script src="spotify-logic.js"></script>
+</body>
+</html>
